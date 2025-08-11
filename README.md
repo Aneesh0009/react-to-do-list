@@ -1,23 +1,27 @@
-# React To-Do List App
+# React WishList App
 
-A simple to-do list application built with **ReactJS**.  
-This project is my first step into learning React and managing state in a real application.
+A simple wishlist (to-do style) application built with **ReactJS**.  
+This project is a beginner-friendly way to learn **React Hooks**, **state management**, and **localStorage** for persistent data.
 
 ---
 
 ## 📌 Features
-- Add new tasks
-- Delete tasks
-- Mark tasks as complete (if implemented)
-- Simple and clean UI
+- ✅ Add new items to your wishlist  
+- 🗑️ Delete items from the wishlist  
+- ✔️ Mark items as completed using a checkbox  
+- 💾 **Persistent storage** using `localStorage` (data is saved even after refreshing the page)  
+- 🚫 Prevent adding duplicate or empty items  
+- ⌨️ Press **Enter** to quickly add an item  
+- 🎯 Clean, simple, and responsive UI  
 
 ---
 
 ## 🛠️ Tech Stack
-- **ReactJS** (Functional Components + Hooks)
+- **ReactJS** (Functional Components + Hooks: `useState`, `useEffect`)
 - **JavaScript (ES6+)**
 - **HTML5**
 - **CSS3**
+- **UUID** (for unique item IDs)
 
 ---
 
